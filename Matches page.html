@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upcoming Matches</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      --bg: #f5f7fa;
+      --card: #ffffff;
+      --accent: #0066ff;
+      --text: #222;
+      --muted: #6c757d;
+      --border: #e5e9f2;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      padding: 2rem 1rem;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .matches {
+      max-width: 800px;
+      margin: 0 auto;
+      display: grid;
+      gap: 1rem;
+    }
+    .match {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 1.25rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, .04);
+    }
+    .team {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+      flex: 1;
+    }
+    .team img {
+      width: 32px;
+      height: 24px;
+      object-fit: cover;
+      border-radius: 3px;
+    }
+    .team.right {
+      justify-content: flex-end;
+    }
+    .vs {
+      font-weight: 600;
+      color: var(--muted);
+      margin: 0 1rem;
+    }
+    .info {
+      text-align: center;
+      font-size: .8rem;
+      color: var(--muted);
+    }
+    @media (max-width: 500px) {
+      .match {
+        flex-direction: column;
+        gap: .75rem;
+      }
+      .team.right {
+        justify-content: flex-start;
+      }
+    }
+
+    .header{
+      flex: content;
+      justify-content: center;
+      background-color: green;
+      align-items: center;
+      padding: 10px;
+      margin: 10px;
+    }
+    
+  </style>
+</head>
+<body>
+ <header>
+
+  <h1>Upcoming Matches</h1>
+</header>
+<nav class = header>
+    <a href="Matches page.html">Matches</a>
+    <a herf="Players.html">Players</a>
+    <a href="About Page.html">About</a>
+    <a href="Home.html">Home</a>
+            
+  </nav>
+  <section class="matches">
+    <!-- Match 1 -->
+    <div class="match">
+      <div class="team">
+        <img src="https://i.pinimg.com/736x/06/7a/c7/067ac7cdf611f7e23d2334a4d6dd9cdf.jpg" alt="England">
+        <span>Yolo FC</span>
+      </div>
+      <div class="info">
+        <div class="vs">VS</div>
+        <div>Fri, 14 Jun 2025 – 20:45</div>
+      </div>
+      <div class="team right">
+        <span>Koko FC</span>
+        <img src="https://i.pinimg.com/736x/df/f5/65/dff5657d909400679941d5124b39c4d9.jpg" alt="Germany">
+      </div>
+    </div>
+
+    <!-- Match 2 -->
+    <div class="match">
+      <div class="team">
+        <img src="https://i.pinimg.com/736x/5c/59/33/5c59332642a37ec9d374d02c09a02e21.jpg" alt="Brazil">
+        <span>Kush FC</span>
+      </div>
+      <div class="info">
+        <div class="vs">VS</div>
+        <div>Sat, 15 Jun 2025 – 18:00</div>
+      </div>
+      <div class="team right">
+        <span>Tramadol FC</span>
+        <img src="https://i.pinimg.com/736x/53/c1/19/53c11967b8d19e9f46292581490fc9b1.jpg" alt="Argentina">
+      </div>
+    </div>
+
+    <!-- Match 3 -->
+    <div class="match">
+      <div class="team">
+        <img src="https://i.pinimg.com/736x/68/d1/6f/68d16fc6cb08ff3955447aa181c37439.jpg" alt="France">
+        <span>Never Give Up FC</span>
+      </div>
+      <div class="info">
+        <div class="vs">VS</div>
+        <div>Sun, 16 Jun 2025 – 21:00</div>
+      </div>
+      <div class="team right">
+        <span>Give Up FC</span>
+        <img src="https://i.pinimg.com/1200x/df/0a/2d/df0a2d43efeeaae4b8796e3fe956a32a.jpg" alt="Spain">
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
