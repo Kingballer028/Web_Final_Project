@@ -4,15 +4,23 @@ Final project for assignment 3
 
 ## Technologist used
 -Html
+
 -Css
+
 -Tailwind css
+
 -Javascrip
+
 -Images
 
 ## Author
+
 BY GROUP G(7)
+
 -ALPHA HAMIDU JALLOH ID5193
+
 -DERICK SAMUEL VALCARCEL ID5547
+
 -RANNY BRIMA ID5155
 
 ## UI Screenshot
