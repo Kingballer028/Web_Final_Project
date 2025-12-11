@@ -1,0 +1,88 @@
+/* CARDS */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px gray;
+}
+
+/* PLAYER CARD */
+.player-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 10px gray;
+}
+
+
+
+.player-card button {
+  background: green;
+  color: white;
+  padding: 8px 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+/* POPUP */
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-box {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.popup-box button {
+  background: red;
+  color: white;
+  padding: 6px 20px;
+  margin-top: 10px;
+}
+
+/* SLIDER ANIMATION */
+.slider {
+  width: 100%;
+  max-width: 400px;
+  height: 50px;
+  overflow: hidden;
+  margin: auto;
+  position: relative;
+  background: green;
+  color: white;
+  border-radius: 10px;
+}
+
+.slide {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  position: absolute;
+  animation: slide 9s infinite;
+}
+
+.slide:nth-child(1) { animation-delay: 0s; }
+.slide:nth-child(2) { animation-delay: 3s; }
+.slide:nth-child(3) { animation-delay: 6s; }
+
+@keyframes slide {
+  0% {transform: translateY(100%);}
+  10% {transform: translateY(0);}
+  30% {transform: translateY(0);}
+  40% {transform: translateY(-100%);}
+  100% {transform: translateY(-100%);}
+}

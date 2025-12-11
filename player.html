@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SL Football Agency | Players</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./css/Alpha.css">
+</head>
+<body class="bg-gray-100">
+
+  <!-- NAVBAR -->
+  <nav class="bg-green-700 p-4 text-white flex justify-between">
+    <a href="./INDEX.HTML"><h1 class="text-xl font-bold">Sierra Leone Football Agency</h1></a>
+    <div class="space-x-4">
+      <a href="./INDEX.HTML">Home</a>
+      <a href="./player.html">Players</a>
+      <a href="#">Matches</a>
+      <a href="#">Contact Us</a>
+      <a href="#">About Us</a>
+    </div>
+  </nav>
+
+  <h2 class="text-center text-3xl font-bold my-6">Our Players</h2>
+
+  <section class="grid grid-cols-1 md:grid-cols-3 gap-10 p-10">
+
+    <!-- PLAYER 4 -->
+    <div class="player-card">
+      <img src="./AJ PIC/umaru.webp">
+      <h3>Umaru Bangura</h3>
+      <p>Centre-Back</p>
+      <button onclick="openPlayer('Umar Bangura','38','Centre-Back','FC Kallon')">
+        View Details
+      </button>
+    </div>
+
+    <!-- PLAYER 5 -->
+    <div class="player-card">
+      <img src="./AJ PIC/Alusine Dumbuya.webp">
+      <h3>Alusine Dumbuya</h3>
+      <p>Central Midfield</p>
+      <button onclick="openPlayer('Alusine Dumbuya','19','Central Midfield','East End Lions')">
+        View Details
+      </button>
+    </div>
+
+    <!-- PLAYER 6 -->
+    <div class="player-card">
+      <img src="./AJ PIC/Mamadou Jalloh.webp">
+      <h3>Mamadou Jalloh</h3>
+      <p>Goalkeeper</p>
+      <button onclick="openPlayer('Mamadou Jalloh','19','Goalkeeper','Veikkausliiga')">
+        View Details
+      </button>
+    </div>
+
+    <!-- PLAYER 7 -->
+    <div class="player-card">
+      <img src="./AJ PIC/n jalloh.webp">
+      <h3>Nathaniel Jalloh</h3>
+      <p>Defender</p>
+      <button onclick="openPlayer('Nathaniel Jalloh','20','Defender','FC Kallon')">
+        View Details
+      </button>
+    </div>
+
+    <!-- PLAYER 8 -->
+    <div class="player-card">
+      <img src="./AJ PIC/Mohamed Fofanah.webp">
+      <h3>Mohamed Fofanah</h3>
+      <p>Left Winger</p>
+      <button onclick="openPlayer('Mohamed Fofanah','20','Left Winger','East End Lions')">
+        View Details
+      </button>
+    </div>
+
+    <!-- PLAYER 9 -->
+    <div class="player-card">
+      <img src="./AJ PIC/Musa Bangura.webp">
+      <h3>Musa Bangura</h3>
+      <p>Left Winger</p>
+      <button onclick="openPlayer('Musa Bangura','19','Left Winger','East End Lions')">
+        View Details
+      </button>
+    </div>
+
+    <!-- PLAYER 10 -->
+    <div class="player-card">
+      <img src="./AJ PIC/Mohamed Koroma.webp">
+      <h3>Mohamed Koroma</h3>
+      <p>Left-Back</p>
+      <button onclick="openPlayer('Mohamed Koroma','19','Left-Back','Wusum Stars FC')">
+        View Details
+      </button>
+    </div>
+
+    <!-- PLAYER 11 -->
+    <div class="player-card">
+      <img src="./AJ PIC/Sallieu Bah.webp">
+      <h3>Sallieu Bah</h3>
+      <p>Attacking Midfield</p>
+      <button onclick="openPlayer('Sallieu Bah','24','Attacking Midfield','Wilberforce')">
+        View Details
+      </button>
+    </div>
+
+    <!-- PLAYER 12 -->
+    <div class="player-card">
+      <img src="./AJ PIC/Sheku Kallon.webp">
+      <h3>Sheku Kallon</h3>
+      <p>Central Midfield</p>
+      <button onclick="openPlayer('Sheku Kallon','21','Central Midfield','Wilberforce')">
+        View Details
+      </button>
+    </div>
+
+    <!-- PLAYER 12 -->
+    <div class="player-card">
+      <img src="./AJ PIC/Sulaiman Sheriff Kargbo.webp">
+      <h3>Sulaiman Sheriff Kargbo</h3>
+      <p>Goalkeeper</p>
+      <button onclick="openPlayer('Sulaiman Sheriff Kargbo','20','Goalkeeper','East End Lions')">
+        View Details
+      </button>
+    </div>
+  </section>
+
+  <div id="popup" class="hidden fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50">
+
+  <div class="bg-white p-6 rounded-lg w-80 text-center">
+    <h2 id="pname" class="text-xl font-bold mb-2"></h2>
+    <p id="page"></p>
+    <p id="pposition"></p>
+    <p id="pclub"></p>
+
+    <button onclick="closePlayer()" 
+      class="mt-4 bg-red-600 text-white px-4 py-2 rounded">
+      Close
+    </button>
+  </div>
+
+</div>
+
+
+
+  <footer class="bg-green-700 text-white text-center p-4">
+    <p>&copy; 2026 Sierra Leone Football Agency</p>
+  </footer>
+
+<script>
+function openPlayer(name, age, position, club){
+  document.getElementById("pname").innerText = "Name: " + name;
+  document.getElementById("page").innerText = "Age: " + age;
+  document.getElementById("pposition").innerText = "Position: " + position;
+  document.getElementById("pclub").innerText = "Club: " + club;
+  document.getElementById("popup").classList.remove("hidden");
+}
+
+function closePlayer(){
+  document.getElementById("popup").classList.add("hidden");
+}
+</script>
+
+</body>
+</html>
