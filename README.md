@@ -17,10 +17,13 @@ BY GROUP G(7)
 
 ## UI Screenshot
 <img width="953" height="481" alt="jj1" src="https://github.com/user-attachments/assets/073e3677-fecf-4a76-addc-77e02dd9c2bc" />
+
 <img width="368" height="473" alt="jj2" src="https://github.com/user-attachments/assets/422b38b3-2524-429b-9826-ec19e16c3c99" />
-![der](https://github.com/user-attachments/assets/90c45ad1-12a5-4320-bfc6-411de72219a1)
-![der](https://github.com/user-attachments/assets/711cc63a-1d30-44a6-9503-a63e1948d528)
-![uuu](https://github.com/user-attachments/assets/245c3d99-30ec-4cb4-b226-370c54cd4d31)
+
+<img width="538" height="349" alt="matc3" src="https://github.com/user-attachments/assets/d56c1c3f-1d91-46e8-be36-9f5df053a9f5" />
+
+
+<img width="773" height="509" alt="derkkk" src="https://github.com/user-attachments/assets/85a6c6b8-ad6b-4254-bcaf-111e543e9772" />
 
 
 <img width="1366" height="768" alt="rann" src="https://github.com/user-attachments/assets/24399d5a-e038-4fe8-ae12-c0ecaaa8beb6" />
