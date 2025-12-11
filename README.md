@@ -15,7 +15,7 @@ Final project for assignment 3
 
 ## Author
 
-BY GROUP G(7)
+BY GROUP G(7) BIT1103
 
 -ALPHA HAMIDU JALLOH ID5193
 
